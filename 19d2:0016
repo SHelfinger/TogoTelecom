@@ -1,0 +1,7 @@
+DefaultVendor= 0x19d2 
+DefaultProduct=0x0016
+TargetVendor= 0x19d2 
+TargetProduct= 0x0017 
+MessageContent="5553424308d08c872400000080000685000000240000000000000000000000" 
+CheckSuccess=20
+NeedResponse=1
