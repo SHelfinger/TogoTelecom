@@ -7,7 +7,7 @@ Linux TogoTelekom USB Stick connection configuration repo with a short descripti
 ### What you need to install
 1.   `wvdial` Debian (`sudo apt-get install wvdial`) CentOS (`yum install wvdial`) FreeBSD (Build from source)
 2.   `usb_modeswitch` [Source Code Website](http://www.draisberghof.de/usb_modeswitch/#download)
-2a. Debian (`sudo apt-get install usb-modeswitch`) CentOS (`yum install usb-modeswitch`)
+    * Debian (`sudo apt-get install usb-modeswitch`) CentOS (`yum install usb-modeswitch`)
 3.   `lsusb` to find your current and after usb_modeswitch Hardware ID, Manufactor ID. (Debian/CentOS) has it build-in.
 4.   `pppd` to initial the actually connection, usually will be installed with `wvdial`. If not Debian (`sudo apt-get install pppd`) CentOS (`yum install pppd`)
 
@@ -28,4 +28,4 @@ The another tab is "EVDO" what you may know from TogoTelekom connection manager.
 [![Repository size](https://reposs.herokuapp.com/?path=shelfinger/TogoTelekom&color=00aeef)](https://github.com/SHelfinger/TogoTelekom)
 [![Website](https://img.shields.io/badge/website-shelfinger.eu-00aeef.svg)](https://shelfinger.eu/)
 [![Status](https://img.shields.io/badge/status-testing-blue.svg)](https://github.com/SHelfinger/TogoTelekom)
-[![GitHub forks](https://img.shields.io/TogoTelekom/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/SHelfinger/TogoTelekom/fork)
+[![GitHub forks](https://img.shields.io/github/forks/shelfinger/togotelekom.svg?style=social&label=Fork)](https://github.com/SHelfinger/TogoTelekom/fork)
