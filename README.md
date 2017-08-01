@@ -5,11 +5,11 @@ Linux TogoTelekom USB Stick connection configuration repo with a short descripti
 ## Installation
 
 ### What you need to install
-*   `wvdial` Debian (`sudo apt-get install wvdial`) CentOS (`yum install wvdial`) FreeBSD (Build from source)
-*   `usb_modeswitch` [Source Code Website](http://www.draisberghof.de/usb_modeswitch/#download)
+1.   `wvdial` Debian (`sudo apt-get install wvdial`) CentOS (`yum install wvdial`) FreeBSD (Build from source)
+2.   `usb_modeswitch` [Source Code Website](http://www.draisberghof.de/usb_modeswitch/#download)
   * Debian (`sudo apt-get install usb-modeswitch`) CentOS (`yum install usb-modeswitch`)
-*   `lsusb` to find your current and after usb_modeswitch Hardware ID, Manufactor ID. (Debian/CentOS) has it build-in.
-*   `pppd` to initial the actually connection, usually will be installed with `wvdial`. If not Debian (`sudo apt-get install pppd`) CentOS (`yum install pppd`)
+3.   `lsusb` to find your current and after usb_modeswitch Hardware ID, Manufactor ID. (Debian/CentOS) has it build-in.
+4.   `pppd` to initial the actually connection, usually will be installed with `wvdial`. If not Debian (`sudo apt-get install pppd`) CentOS (`yum install pppd`)
 
 ### Configuration files
 The `wvdial.conf` should be in `/etc/` and from the `usb_modeswitch.d/19d2:0016` in `/etc/usb_modeswitch.d/` folder. After you have copied the files in the belong folder, edit the `wvdial.conf` (Important) with your Username, Password and PIN if nescessary.
