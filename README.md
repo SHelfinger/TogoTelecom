@@ -1,6 +1,6 @@
-# TogoTelekom
+# TogoTelecom
 
-Linux TogoTelekom USB Stick connection configuration repo with a short description of usage.
+Linux TogoTelecom USB Stick connection configuration repo with a short description of usage.
 
 ## Installation
 
@@ -20,7 +20,7 @@ The simplest way to test the connection is to start `wvdial`. I've added PIN and
 
 ### Advanced Configuration
 In wvdial.conf you can add the PIN (If you haven't yet disabled, I suggest to disable it). To activate it just hit `wvdial pin`.
-The another tab is "EVDO" what you may know from TogoTelekom connection manager. Usually PPP is connecting with the regular mode, who you probably don't want. The trick `wvdial modem-start` who is activating the "high-speed"
+The another tab is "EVDO" what you may know from TogoTelecom connection manager. Usually PPP is connecting with the regular mode, who you probably don't want. The trick `wvdial modem-start` who is activating the "high-speed"
 
 ## Meta
 
